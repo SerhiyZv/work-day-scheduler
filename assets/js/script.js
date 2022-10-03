@@ -67,3 +67,5 @@ $("button.saveBtn").click(function (event, createEvents) {
 });
 
   setInterval(displayTime, 1000);
+  
+  fetchEvents();
